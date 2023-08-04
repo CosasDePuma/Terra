@@ -36,12 +36,21 @@
 <br/>
 <div align="center">
 
-```ocaml
-Name: Kali Dragon
-User: hacker
-Pass: hacker
+```
+minimal installation
+```
+```hs
+Name :: Kali Dragon
+User :: hacker
+Pass :: hacker
 ```
 
 <img src="./readme/kali.png" />
 </div>
+
+```sh
+# deployment process
+packer build kali/kali.pkr.hcl
+```
+
 </details>
