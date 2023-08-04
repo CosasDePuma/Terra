@@ -31,9 +31,14 @@
 <h1></h1>
 </div>
 
+The following is a list of available machines for **unattended** installation:
+
 <details>
 <summary>🐉 <a href="https://www.kali.org/">Kali Linux</a> (Dragon)</summary>
 <br/>
+
+## ✏️ Details
+
 <div align="center">
 
 ```
@@ -45,12 +50,20 @@ User :: hacker
 Pass :: hacker
 ```
 
-<img src="./readme/kali.png" />
 </div>
+
+## 🏗️ Deployment
+
+In order to deploy the machine, it is necessary to have `packer` installed:
 
 ```sh
 # deployment process
 packer build kali/kali.pkr.hcl
 ```
 
+## 🖼️ Screenshoots
+
+<div align="center">
+    <img src="./readme/kali.png" />
+</div>
 </details>
